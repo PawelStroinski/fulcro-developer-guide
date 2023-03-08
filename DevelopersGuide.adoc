@@ -563,7 +563,7 @@ All application state is just a single immutable map.
 Saving snapshots over time is all it takes to be able to "view" the app as it existed at some prior point in time.
 * Snapshotting an application state for re-use during development.
 Fulcro Inspect can take a picture of app state and save it in browser local storage for later restoration.
-This allows you to "jump to" some application state that you use a lot during development (e.g. jump to screen 2, with a partially filled form read for submit).
+This allows you to "jump to" some application state that you use a lot during development (e.g. jump to screen 2, with a partially filled form ready for submit).
 
 Finally, a more recent addition to the library has proven to be extremely useful: <<UI State Machines>>.
 
